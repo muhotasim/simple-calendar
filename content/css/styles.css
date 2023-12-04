@@ -1,0 +1,163 @@
+body {
+  height: 100%;
+}
+#calendar {
+  padding: 5% 5% 0 5%;
+  font-family: "Roboto";
+}
+.month-comp {
+  text-align: center;
+  color: lightgrey;
+  margin-bottom: 2rem;
+}
+.month-holder {
+  padding: 0 2rem;
+  color: #007fa3;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.month-calendar-day-names th,
+.month-calendar-days-holder td {
+  color: lightgrey;
+  width: 1%;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.month-calendar-days-holder td {
+  color: #007fa3;
+  height: 6rem;
+  font-weight: bold;
+}
+span.date-holder {
+  font-size: 1.1rem;
+}
+p.event-pointer-holder {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 1rem;
+  background: #007fa3;
+  margin: 0 auto;
+  padding: 0;
+}
+.date-holder .day,
+.date-holder .day-name {
+  display: block;
+}
+.date-holder .day-name {
+  font-size: 0.7rem;
+  font-weight: 300;
+}
+.month-calendar-days-holder td .date-holder.active {
+  color: white;
+  background: #007fa3;
+  padding: 0.6rem 1rem;
+  display: inline-block;
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 3px #007fa3;
+  cursor: pointer;
+}
+.event-count-holder {
+  padding: 1rem 2rem;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+.event-count-holder.upcomming {
+  background: #007fa3;
+}
+.event-count-holder .upcomming-text {
+  text-align: left;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.event-count-holder .upcomming-count {
+  text-align: left;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.event-count-holder.past-envets {
+  color: #007fa3;
+  background: #f1fcff;
+}
+.event-count-holder {
+  border-radius: 0.5rem;
+}
+.all-events-btn-holder {
+  text-align: center;
+  margin: 2rem;
+}
+
+.all-event-btn {
+  padding: 1.2rem;
+  border: 2px solid #007fa3;
+  color: #007fa3;
+  font-weight: 700;
+  transition-duration: 0.4s;
+  background: white;
+}
+
+.all-event-btn:hover {
+  padding: 1.2rem;
+  border: 2px solid #007fa3;
+  color: white;
+  background: #007fa3;
+  transition-duration: 0.4s;
+  font-weight: 700;
+}
+.all-event-btn:active {
+  color: white;
+  background: #007fa3;
+}
+.event-short-details-card {
+  cursor: pointer;
+  margin-bottom: 4rem;
+}
+.event-short-details-card img {
+  border-radius: 0.5rem;
+  height: 10rem;
+  width: 100%;
+  background: lightgray;
+}
+.calendar-holder {
+  margin-top: 5.5rem;
+}
+.event-details-header-holder {
+  font-weight: 600;
+}
+.event-short-details-cards-holder {
+  margin-top: 4rem;
+}
+.event-details-header-holder h2 {
+  color: #007fa3;
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.event-details-header-holder p {
+  font-size: 1.7rem;
+}
+p.capacity-holder {
+  font-size: 1.2rem;
+  color: darkgray;
+  padding: 0;
+  margin: 0;
+  margin-top: 1rem;
+}
+p.event-details-header {
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+}
+.time-session-holder label {
+  font-size: 0.8rem;
+  padding: 0;
+  margin: 0;
+  color: darkgray;
+}
+.time-session-holder p {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
